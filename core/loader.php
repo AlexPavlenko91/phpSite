@@ -15,6 +15,7 @@ spl_autoload_register("Autoloader::load");
     "p1"=>1
 
 ]);*/
+/*
 Router::add("news/<page>?",[
     "controller"=>"news",
     "action"=>"index",
@@ -25,6 +26,7 @@ Router::add("news1/<page>?",[
     "action"=>"index",
     "page"=>1
 ]);
+*/
 Router::add("products/<page>?",[
     "controller"=>"products",
     "action"=>"index",
