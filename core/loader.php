@@ -7,6 +7,8 @@ require_once EXEPTION_PATH."exeption_loader.php";
 require_once CORE_CLASSES_PATH."Autoloader.php";
 require_once CORE_CLASSES_PATH."Url.php";
 require_once HELPER_PATH."HTMLhelper.php";
+echo "elskkdfmd;sl";
+die();
 spl_autoload_register("Autoloader::load");
 
 /*Router::add("news/<p1>?",[
