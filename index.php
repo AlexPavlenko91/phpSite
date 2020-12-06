@@ -13,6 +13,4 @@ define("CORE_BASE_PATH",CORE_PATH."Base/");
 define("CONFIGS_PATH",APP_PATH."Configs/");
 define("CORE_CLASSES_PATH",CORE_PATH."Classes/");
 define("EXEPTION_PATH",CORE_PATH."Classes/Exeptions/");
-echo "Hiii!)";
-die();
 include CORE_PATH."loader.php";
