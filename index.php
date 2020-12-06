@@ -1,6 +1,4 @@
 <?php
-echo "Hello, this is file from github)";
-die();
 define("URLROOT","");
 define("DOCROOT",$_SERVER['DOCUMENT_ROOT']."/".URLROOT);
 define("APP_PATH",DOCROOT."App/");
@@ -15,5 +13,4 @@ define("CORE_BASE_PATH",CORE_PATH."Base/");
 define("CONFIGS_PATH",APP_PATH."Configs/");
 define("CORE_CLASSES_PATH",CORE_PATH."Classes/");
 define("EXEPTION_PATH",CORE_PATH."Classes/Exeptions/");
-
 include CORE_PATH."loader.php";
